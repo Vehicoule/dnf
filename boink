@@ -20,3 +20,7 @@ sudo dnf install zen-browser
     https://docs.brew.sh/Homebrew-on-Linux
 - We recommend that you install GCC:
     brew install gcc
+
+
+sudo dnf install nerd-fonts
+https://github.com/NvChad/NvChad
