@@ -1,0 +1,2 @@
+sudo dnf group install development-tools
+https://github.com/CachyOS/copr-linux-cachyos
