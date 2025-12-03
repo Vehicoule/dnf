@@ -1,2 +1,22 @@
 sudo dnf group install development-tools
 https://github.com/CachyOS/copr-linux-cachyos
+
+https://github.com/Vencord/Vesktop
+https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher
+https://github.com/staniel359/muffon
+
+sudo dnf copr enable sneexy/zen-browser
+sudo dnf install zen-browser
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+==> Next steps:
+- Run these commands in your terminal to add Homebrew to your PATH:
+    echo >> /home/btw/.zshrc
+    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/btw/.zshrc
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+- Install Homebrew's dependencies if you have sudo access:
+    sudo dnf group install development-tools
+  For more information, see:
+    https://docs.brew.sh/Homebrew-on-Linux
+- We recommend that you install GCC:
+    brew install gcc
